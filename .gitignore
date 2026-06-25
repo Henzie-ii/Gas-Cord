@@ -1,0 +1,22 @@
+# Environments & Variables
+.env
+.env.*
+!.env.example
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.desktop
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Docker logs
+docker/postgres/data/
+*.log
